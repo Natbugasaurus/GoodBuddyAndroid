@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "653267248231",
+    "firebase_url": "https://good-buddy-7bb0a.firebaseio.com",
+    "project_id": "good-buddy-7bb0a",
+    "storage_bucket": "good-buddy-7bb0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653267248231:android:13e8ae024250a7f5",
+        "android_client_info": {
+          "package_name": "au.com.hacklord.goodbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653267248231-g2fh8j19qcjnaboc0491denfumgv84ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlqfQFcA0Hxk6ewgbXSzG-iP2tupI9UZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
