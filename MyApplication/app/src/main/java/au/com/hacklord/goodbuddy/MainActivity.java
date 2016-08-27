@@ -9,7 +9,9 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.LoginFilter;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 import au.com.hacklord.goodbuddy.fragment.LoginFragment;
 
@@ -18,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     LoginFragment loginFragment;
 
     View fragmentContainer;
+    Button button;
+    static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         fragmentContainer = findViewById(R.id.main_fragment_container);
+
+        button = (Button)findViewById(R.id.button);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG,"button clicked!");
+            }
+        });
 
         initFragments();
     }
